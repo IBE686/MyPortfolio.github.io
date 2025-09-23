@@ -1,0 +1,221 @@
+*{margin-top: 0;
+padding: 0;}
+
+
+.nav-link {color:#00ABE3;
+  
+}
+
+h1{font-family: Arial, sans-serif; color: #700884;
+  margin-top: 100px;
+  font-size: 3em;
+}
+
+
+body{background: url("bg-img.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+  .nav-bar{
+   /*  background: transparent; semi-transparent overlay (optional) */
+    background-color:transparent;
+  }
+
+  .bg-body-tertiary {
+background: transparent;
+  }
+ 
+
+#short-about-me{margin-top: 40px;
+                margin-bottom: 40px;
+              font-size: 1.0em;
+            color: #00ABE3;}
+.cta-btn{box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.3);
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+ font-size: 16px;
+ margin-right: 20px;
+ margin-top: 20px;
+
+  }
+  /* First button */
+#git{
+  background-color: #700884;
+  color: white;
+}
+
+/* Second button */
+#vmw{
+  background-color: #00ABE3;
+  color: white;
+}
+
+
+
+  #img-div{
+    background: url(profile_1.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 150px;
+    height: 450px;
+
+  }
+
+
+ 
+
+  .icons{
+  height: 24px;}
+.l-icon{height: 28px;}
+
+
+
+.icons:hover {
+  height:30px;
+}
+.l-icon:hover {
+  height:30px;
+}
+
+#icons-cont {
+ margin: 20px auto 20px auto;
+}
+
+.navbar-toggler-icon{
+  color:#700884
+}
+
+/*Animation*/ 
+
+.nav-link {
+  position: relative;
+  color: #0dcaf0; /* Bootstrap's cyan (or pick yours) */
+  transition: color 0.3s ease;
+}
+
+.nav-link::after {
+  content: "";
+  font-size: larger;
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: -5px;
+  background-color: #0d6efd; /* Bootstrap primary */
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #0d6efd;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+.nav-link {
+  transition: font-size 0.3s ease, color 0.3s ease;
+}
+
+.nav-link:hover {
+  font-size: 1.2rem;   /* slightly larger */
+  color: #0d6efd;      /* optional: change color too */
+}
+
+
+
+
+
+#home{
+  color: #700884;       /* Bootstrap primary */
+  font-weight: 600;     /* bold */
+  border-bottom: 2px solid #700884; /* underline effect */
+}
+
+/* Media Queries*/
+
+/* tablets */
+
+@media (min-width: 601px) and (max-width: 900px) {
+  #img-div{
+    background: url(profile_1.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 150px;
+    height: 350px;
+  }
+  .cta-btn{box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.3);
+  outline: none;
+  border: none;
+  height: 30px;
+ font-size: 14px;
+  text-align: center;      /* center the text horizontally */
+  line-height: normal
+
+  }
+
+  h1{font-family: Arial, sans-serif; color: #700884;
+  margin-top: 100px;
+  font-size: 2.5em;
+}
+
+#short-about-me{margin-top: 20px;
+                margin-bottom: 20px;
+              font-size: 1.0em;
+            color: #00ABE3;}
+
+}
+/* Small devices (phones landscape, small tablets) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  
+}
+
+/* Extra small devices (phones, portrait) */
+@media (max-width: 575.98px) {
+  h1{ margin-top: 30px;
+  font-size: 2em;
+  text-align: center;
+}
+
+#short-about-me{margin-top: 30px;
+                margin-bottom: 30px;
+              font-size: 1.0em;
+            text-align: center;
+          
+          }
+        #short-about-me br {
+  display: none; /* only hides <br> inside this element */
+}
+           #img-div{
+    background: url(profile_1.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+  height: 250px;
+  border: solid 1px #700884;
+  border-radius: 50%; /* makes it a circle */
+  margin: 0 auto;
+  padding: 20px;
+  }
+  .cta-btn{box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.3);
+  outline: none;
+  border: none;
+  border-radius: 8px;
+ font-size: 16px;
+ margin-right: 20px;
+ width:100%
+
+  }
+
+   .icons{
+  height: 24px;}
+.l-icon{height: 28px;}
+
+#foot-items{
+  margin: 20px auto 30px auto;
+}
+  
+}
+
+
+
