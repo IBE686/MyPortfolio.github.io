@@ -1,6 +1,15 @@
-*{margin-top: 0;
+*{margin:0;
 padding: 0;}
 
+body{background-color: #eef6ff;;
+    background-size: cover;
+    background-image: none;
+  }
+
+
+
+
+/* IMPORTED INDEX CSS*/
 
 .nav-link {color:#00ABE3;
   
@@ -13,9 +22,11 @@ padding: 0;}
   color: #00bcd4;
 }
 
-h1{font-family: Arial, sans-serif; color: #700884;
+#h-rap{margin-top: 10x;}
+
+h2{font-family: Arial, sans-serif; color: #700884;
   margin-top: 100px;
-  font-size: 3em;
+
 }
 h1 {
   transition: all 0.3s ease;
@@ -34,20 +45,20 @@ border: none;}
 }
 
 
-
 .nav-link:hover {
   text-shadow: 0 0 8px #00bcd4, 0 0 15px #00bcd4;
   color: #00bcd4;
 }
 
-body{background: url("bg-img.jpg") no-repeat center center fixed;
-    background-size: cover;
-  }
   .nav-bar{
    /*  background: transparent; semi-transparent overlay (optional) */
     background-color:transparent;
   }
 
+  /*.bg-body-tertiary {
+background: transparent;
+  }*/
+ 
 
 #short-about-me{margin-top: 40px;
                 margin-bottom: 40px;
@@ -87,12 +98,9 @@ body{background: url("bg-img.jpg") no-repeat center center fixed;
   }
 
 
- 
-
   .icons{
   height: 24px;}
 .l-icon{height: 28px;}
-
 
 
 .icons:hover {
@@ -152,7 +160,7 @@ body{background: url("bg-img.jpg") no-repeat center center fixed;
 
 
 
-#home{
+#aboutMe{
   color: #700884;       /* Bootstrap primary */
   font-weight: 600;     /* bold */
   border-bottom: 2px solid #700884; /* underline effect */
@@ -163,6 +171,125 @@ body{background: url("bg-img.jpg") no-repeat center center fixed;
   margin: 20px auto 30px auto;
 
 }
+
+
+
+
+/* Tech Stack Section Styling */
+
+  .text-center, .mb-4{
+  padding-top: auto;
+padding-bottom: auto;
+margin-bottom: 10px;
+}
+.tech-card {
+  background: #fff;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.tech-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.text-purple {
+  color: #7952b3; /* Bootstrap purple */
+}
+
+.row, .g-4{margin-top: 10px;
+padding: 10px;}
+
+#skills, .fw-bold{margin-top:0;
+  font-size: 20px;
+margin-bottom: 0;
+}
+
+
+.gy-5{margin-top:0px ;}
+
+
+.skill-card {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.skill-icon {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
+}
+
+
+.tool-card {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.tool-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.tool-icon {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.tool-icon:hover {
+  transform: scale(1.1);
+}
+
+
+
+#beyond-work {
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  padding: 3rem 2rem;
+  transition: all 0.3s ease;
+}
+
+#beyond-work:hover {
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+}
+
+#beyond-work h2 {
+  color: #222;
+  font-size: 1.8rem;
+}
+
+#beyond-work p {
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+.beyond-img {
+  max-width: 90%;
+  border-radius: 16px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.beyond-img:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+
+
+
+
 /* Media Queries*/
 
 /* tablets */
@@ -185,9 +312,9 @@ body{background: url("bg-img.jpg") no-repeat center center fixed;
 
   }
 
-  h1{font-family: Arial, sans-serif; color: #700884;
-  margin-top: 100px;
-  font-size: 2.5em;
+  h2{font-family: Arial, sans-serif; color: #700884;
+  margin-top: 50px;
+  font-size: 1.7em;
 }
 
 #short-about-me{margin-top: 20px;
@@ -200,14 +327,15 @@ body{background: url("bg-img.jpg") no-repeat center center fixed;
 
 /* Extra small devices (phones, portrait) */
 @media (max-width: 575.98px) {
-  h1{ margin-top: 30px;
-  font-size: 2em;
+  h2{ margin-top: 20px;
+    margin-bottom: 10px;
+  font-size: 1em;
   text-align: center;
 }
 
 #short-about-me{margin-top: 30px;
                 margin-bottom: 30px;
-              font-size: 1.0em;
+              font-size: 0,7em;
             text-align: center;
           
           }
@@ -242,8 +370,35 @@ body{background: url("bg-img.jpg") no-repeat center center fixed;
 #foot-items{
   margin: 20px auto 30px auto;
 }
+
+
+.skill-card {
+    padding: 1.5rem;
+  }
+  .skill-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+
+
+  .tool-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+
+  #beyond-work {
+    text-align: center;
+  }
+
+  .beyond-img {
+    max-width: 100%;
+  }
+  #skills, .fw-bold{margin-top:20px;
+  font-size: 20px;
+margin-bottom: 0;
+}
   
 }
-
-
 

@@ -1,0 +1,384 @@
+*{margin:0;
+padding: 0;}
+body{background-color: #eef6ff;;
+    background-size: cover;
+    background-image: none;
+  }
+
+
+  #graphic{
+  color: #700884;       /* Bootstrap primary */
+  font-weight: 600;     /* bold */
+  border-bottom: 2px solid #700884; /* underline effect */
+}
+
+
+#hero-cont{background-image: url("Image_fx\ \(5\).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+display: flex;
+  justify-content: center;
+  align-items: center;
+flex-direction: column;
+ position: relative;
+  z-index: 1;
+  margin-top: 0;
+  height: 700px;         /* full screen hero section */
+  
+
+  }
+
+ 
+
+  #vp-btn{
+  background-color: #00ABE3;
+  color: white;
+  width: 200px;
+  height: 40px;
+}
+
+  
+
+
+#h-text{text-align: center;
+  font-family: Arial, sans-serif; color:#700884;
+  margin-top: 100px;
+  font-size: 2.0em;
+}
+
+  
+
+
+
+
+#anchor{text-decoration: none;
+margin-top: 20px;
+color: #ffffff;}
+
+#WebDev{
+  color: #ffffff;       /* Bootstrap primary */
+  font-weight: inherit;     /* bold */
+  border-bottom: 2px solid #ffffff; /* underline effect */
+}
+
+
+#h-btn{background-color: #00ABE3;
+  color: white;
+padding: 10px 20px;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+#home{
+  color:#00ABE3;       /* Bootstrap primary */
+  font-weight: 600;     /* bold */
+  border-bottom:none; /* underline effect */
+}
+
+h1{color: #700884;
+  margin-top:50px;
+  font-size: 3em;
+  text-align: center;
+  font-family: Arial, sans-serif; 
+  
+  
+}
+
+#first-column h3 {
+ color:#00ABE3
+}
+
+
+.section-div{background-color: #ffffff;
+border-radius: 10px;
+margin-top: 30px;
+box-shadow: 2px;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1)}
+
+#design-1{
+    background: url(armed\ 2.jpg) no-repeat;
+    background-position: center;
+    background-size: contain;
+    border:5px;
+    height: 600px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;   
+
+  }
+
+
+  #design-2{
+    background: url(sampoto\ Air.jpg) no-repeat;
+    background-position: center;
+    background-size: contain;
+    border:5px;
+    height: 600px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+    
+
+    
+
+  }
+
+
+  #design-3{
+    background: url(Joelight.jpg) no-repeat;
+    background-position: center;
+    background-size: contain;
+    border:5px;
+    height: 600px;
+    margin-top: 20px;
+
+    
+
+  }
+
+  
+
+#fp{color:#000000;
+  font-size: 24px;
+margin-top:inherit;
+text-align: center;
+font-weight: 500;}
+
+#short-about-brand{margin-top: 40px;
+                margin-bottom: 40px;
+              font-size: 1.5em;
+            color: #000000;
+          text-align: justify;
+        height:auto}
+
+
+.proj-section{background: #ffffff;       /* make sure there's a background */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);  /* subtle shadow */
+  border-radius: 10px;       /* optional: soft corners */
+  padding-top: 10px;
+  margin-bottom: 40px;       /* space between sections */
+  margin-top:10px
+}
+
+h3{margin-top: 50px;}
+
+.about{font-weight:200;
+color: #504e50;
+padding-top: 20px;
+padding-bottom: 30px;
+}
+
+#icons-cont{margin-bottom: 80px;}
+
+
+   
+
+#vmw{background-color: #00ABE3;
+  color: white;
+padding: 10px 20px;
+  font-size: 16px;
+  line-height: 1.4;}
+
+
+
+
+
+
+
+  /* Tech Stack Section Styling */
+
+  .text-center{background-color: #00ABE3;
+  padding-top: 15px;
+padding-bottom: 15px;}
+.tech-card {
+  background: #fff;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.tech-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.text-purple {
+  color: #7952b3; /* Bootstrap purple */
+}
+
+
+
+
+/* tablets */
+
+@media (min-width: 601px) and (max-width: 900px) {
+  
+  
+
+  #hero-cont{height: 500px;}
+
+
+#h-text{margin-top: 15px;
+  font-size: 1.5em;}
+  .anchor-link{font-size: 0.3em;}
+
+  #h-btn{background-color: #00ABE3;
+  color: white;
+padding: 10px 20px;
+  font-size: 16px;
+  line-height: 1;
+ }
+
+  .cta-btn{box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.3);
+  outline: none;
+  border: none;
+  height: 30px;
+ font-size: 14px;
+  text-align: center;      /* center the text horizontally */
+  line-height: normal
+
+  }
+
+
+#short-about-brand{margin-top: 20px;
+                margin-bottom: 20px;
+              font-size: 1.0em;
+            color: #00ABE3;}
+
+            
+
+}
+
+
+
+
+  
+  
+
+
+
+/* Extra small devices (phones, portrait) */
+@media (max-width: 575.98px) {
+#b-jumbotron{
+  height: 300px;         /* full screen hero section */
+  
+
+  }
+#fp{font-size: 1.5em;
+margin-top:20px;
+text-align: center;}
+
+
+  #h-text{ color:#700884;
+    font-size: 20px;
+}
+
+#short-about-brand{margin-top: 30px;
+                margin-bottom: 30px;
+              font-size: 1.0em;
+            text-align: justify;
+          
+          }
+
+          #vp-btn{
+  background-color: #00ABE3;
+  color: white;
+  width: 80%;
+  height: 40px;
+}
+
+
+  #sm-div-1{
+    background: url(armed\ 2.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 5px;
+    height: 350px;
+    border: none;
+  }
+
+  #sm-div-2{
+    background: url(glttz\ mockup.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 5px;
+    height: 350px;
+  }
+
+
+  #sm-div-3{
+    background: url(Joelight.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 5px;
+    height: 350px;
+    border: none;
+  }
+
+  
+
+
+
+#anchor-link{padding: 5px;}
+
+        #short-about-brand br {
+  display: none; /* only hides <br> inside this element */
+}
+
+
+ .b-name{text-align: center;
+margin: 10px;}
+           #sm-div{
+    background: url(armed\ 2.jpg) no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 250px;
+  height: 250px;
+  border-radius:10px; /* makes it a circle */
+  margin: 0 auto;
+
+  }
+
+  
+  
+  
+
+  .cta-btn{box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.3);
+  outline: none;
+  border: none;
+  border-radius: 8px;
+ font-size: 16px;
+ margin-right: 20px;
+ width:100%
+
+  }
+
+   .icons{
+  height: 24px;}
+.l-icon{height: 28px;}
+
+#foot-items{
+  margin: 20px auto 30px auto;
+}
+  
+
+#hero-cont{height: 300px;}
+
+ #h-text{margin-top: 15px;
+  font-size: 1.0em;}
+  .anchor-link{font-size: 0.3em;}
+  #anchor-link{font-size: 0.8em;}
+
+  #vmw{width: 50%;
+  }
+  #h-btn{width: 45%;
+  }
+
+  
+
+}
+
+
+
+
+
+

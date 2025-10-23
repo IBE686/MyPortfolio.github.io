@@ -1,0 +1,348 @@
+*{margin:0;
+padding: 0;}
+body{background-color: #eef6ff;;
+    background-size: cover;
+    background-image: none;
+  }
+
+#hero-cont{background-image: url("webDev\ img.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+display: flex;
+  justify-content: center;
+  align-items: start;
+flex-direction: column;
+ position: relative;
+  z-index: 1;
+  margin-top: 0;
+  height: 100vh;         /* full screen hero section */
+  
+
+  }
+
+ .my-btn{background-color: #00ABE3;
+border-radius:20px;
+border:none;
+border-color: none;
+margin: 10px 0 10px auto;
+padding:10px;
+font-size: 100%;}
+
+  #vp-btn{
+  background-color: #00ABE3;
+  color: white;
+  width: 200px;
+  height: 40px;
+}
+
+  
+
+
+#h-text{text-align: left;
+  font-family: Arial, sans-serif; color: #ffffff;
+  margin-top: 100px;
+  font-size: 3em;
+}
+
+
+
+#anchor{text-decoration: none;
+margin-top: 20px;
+color: #ffffff;}
+
+#WebDev{
+  color: #ffffff;       /* Bootstrap primary */
+  font-weight: inherit;     /* bold */
+  border-bottom: 2px solid #ffffff; /* underline effect */
+}
+
+
+
+
+#home{
+  color:#00ABE3;       /* Bootstrap primary */
+  font-weight: 600;     /* bold */
+  border-bottom:none; /* underline effect */
+}
+
+.navbar-toggler-icon {border:none;
+  width: 25px;
+  height: 2px;
+  background-color:#ffffff; /* your color */
+  box-shadow: 0 7px 0 0 #ffffff, 0 14px 0 0 #ffffff; /* create the three lines */
+  border-radius: 2px;
+  
+}
+h1{color: #700884;
+  margin-top:50px;
+  font-size: 3em;
+  text-align: center;
+  font-family: Arial, sans-serif; 
+  
+  
+}
+.navbar {
+  background-color: rgb(47, 36, 74)!important; /* make background clear */
+  box-shadow: none !important;              /* remove shadow */
+  backdrop-filter: none !important;         /* ensure no blur layer */
+}
+#first-column h3 {
+ color:#00ABE3
+}
+
+
+.section-div{background-color:none;
+border-radius: 10px;
+margin-top: 30px;
+}
+
+#web-1{
+    background: url(home\ mockup.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    border:5px;
+    height:100vh;
+    margin-bottom: auto;
+
+    
+
+  }
+
+  
+
+#fp{color:#000000;
+  font-size: 24px;
+margin:auto;
+text-align: center;
+font-weight: 700;}
+
+#short-about-brand{margin-top: 40px;
+                margin-bottom: 40px;
+              font-size: 1.5em;
+            color: #000000;
+          text-align: justify;}
+
+
+.proj-section{
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);  /* subtle shadow */
+  border-radius: 10px;       /* optional: soft corners */
+  padding-top: 10px;
+  margin-bottom: 40px;       /* space between sections */
+  margin-top:10px
+}
+
+h3{margin-top: 50px;}
+
+.about{font-weight:200;
+color: #504e50;
+padding-top: 20px;
+padding-bottom: 30px;
+}
+
+#icons-cont{margin-bottom: 80px;}
+
+
+   
+
+#vmw{background-color: #00ABE3;
+  color: white;
+padding: 10px 20px;
+  font-size: 16px;
+  line-height: 1.4;}
+
+
+
+#Featured Projects{ padding-top: none;
+
+}
+
+
+
+
+
+
+  /* Tech Stack Section Styling */
+
+  .text-center{background-color: #00ABE3;
+  padding-top: 15px;
+padding-bottom: 15px;}
+.tech-card {
+  background: #fff;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.tech-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.text-purple {
+  color: #7952b3; /* Bootstrap purple */
+}
+
+
+
+
+/* tablets */
+
+@media (min-width: 601px) and (max-width: 900px) {
+  
+  #sm-div{
+    background: url(glttz\ mockup.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 5px;
+    height: 350px;
+  }
+
+  #sm-div2{
+    background: url(xploreEdge.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 5px;
+    height: 350px;
+    border: none;
+  }
+
+  #hero-cont{height: 500px;}
+
+.navbar {
+  background-color: rgb(47, 36, 74)!important; /* make background clear */
+  box-shadow: none !important;              /* remove shadow */
+  backdrop-filter: none !important;         /* ensure no blur layer */
+}
+#h-text{margin-top: 15px;
+  font-size: 1.5em;}
+  
+
+  #h-btn{background-color: #00ABE3;
+  color: white;
+padding: 10px 20px;
+  font-size: 16px;
+  line-height: 1;
+ }
+
+  .cta-btn{box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.3);
+  outline: none;
+  border: none;
+  height: 30px;
+ font-size: 14px;
+  text-align: center;      /* center the text horizontally */
+  line-height: normal
+
+  }
+
+
+#short-about-brand{margin-top: 20px;
+                margin-bottom: 20px;
+              font-size: 1.0em;
+            color: #00ABE3;}
+
+#b-name{font-size: 1em;}
+
+}
+
+
+
+
+  
+  
+
+
+
+/* Extra small devices (phones, portrait) */
+@media (max-width: 575.98px) {
+#b-jumbotron{
+  height: 300px;         /* full screen hero section */
+  
+
+  }
+#fp{font-size: 1.0em;
+margin-top:20px;
+text-align: center;}
+
+
+  #h-text{ color:#ffffff;
+    font-size: 20px;
+}
+
+#short-about-brand{margin-top: 30px;
+                margin-bottom: 30px;
+              font-size: 1.0em;
+            text-align: justify;
+          
+          }
+
+.my-btn{padding: 7px;}
+.navbar {
+  background-color: rgb(47, 36, 74) !important; /* make background clear */
+  box-shadow: none !important;              /* remove shadow */
+  backdrop-filter: none !important;         /* ensure no blur layer */
+}
+          #vp-btn{
+  background-color: #00ABE3;
+  color: white;
+  width: 80%;
+  height: 40px;
+}
+
+
+
+        #short-about-brand br {
+  display: none; /* only hides <br> inside this element */
+}
+
+
+ .b-name{text-align: center;
+margin: 10px;
+font-size: 1.0em}
+
+           #sm-div{
+    background: url(home\ mockup.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+  height: 250px;
+  border-radius:10px; /* makes it a circle */
+  margin: 0 auto;
+  
+
+  }
+  
+  
+
+  .cta-btn{box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.3);
+  outline: none;
+  border: none;
+  border-radius: 8px;
+ font-size: 16px;
+ margin-right: 20px;
+ width:100%
+
+  }
+
+   .icons{
+  height: 24px;}
+.l-icon{height: 28px;}
+
+#foot-items{
+  margin: 20px auto 30px auto;
+}
+  
+
+#hero-cont{height: 300px;}
+
+ #h-text{margin-top: 15px;
+  font-size: 1.0em;}
+  
+  }
+
+  
+  
+
+
+
+
+
+

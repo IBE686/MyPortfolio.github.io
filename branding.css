@@ -1,0 +1,245 @@
+*{margin:0;
+padding: 0;}
+body{background-color: #eef6ff;;
+    background-size: cover;
+    background-image: none;
+  }
+
+#b-jumbotron{background-image: url("UI\ trns.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+  margin-top: 0;
+  height: 100vh;         /* full screen hero section */}
+h1{color: #700884;
+  margin-top:50px;
+  font-size: 3em;
+  text-align: center;
+  font-family: Arial, sans-serif; 
+   
+}
+#main{margin-top: 20px;
+  font-size: 2rem;
+color: #700884;
+}
+
+
+.a-btn{box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.3);
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+ font-size: 10px;
+ margin-top: 10px;}
+
+#anchor{text-decoration: none;
+margin-top: 20px;
+color: #ffffff;
+font-size: 2em;}
+ 
+
+.navbar {
+  background-color: transparent;
+  }
+
+
+
+#brand-design{
+  color: #700884;       /* Bootstrap primary */
+  font-weight: inherit;     /* bold */
+  border-bottom: 2px solid #700884; /* underline effect */
+}
+
+
+#home{
+  color:#00ABE3;       /* Bootstrap primary */
+  font-weight: 600;     /* bold */
+  border-bottom:none; /* underline effect */
+}
+
+
+.navbar-toggler{background-color: none;
+border: none;}
+
+.navbar-toggler-icon {border:none;
+  width: 25px;
+  height: 2px;
+  background-color:#700884; /* your color */
+  box-shadow: 0 7px 0 0 #700884, 0 14px 0 0 #700884; /* create the three lines */
+  border-radius: 2px;
+  
+}
+
+
+
+.proj-section{background: #ffffff;       /* make sure there's a background */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);  /* subtle shadow */
+  border-radius: 10px;       /* optional: soft corners */
+  padding-top: 10px;
+  margin-bottom: 40px;       /* space between sections */
+  margin-top:10px
+  }
+
+#Featured-Projects{font-size: 1rem;
+text-align: center;
+font-weight: 100;
+color: #00ABE3;
+margin-bottom: 10px;
+font-family: Arial, sans-serif}
+
+h3{margin-top: 50px;}
+
+.about{font-weight:200;
+  color: #504e50;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  }
+
+
+.flex-wrapper {
+  display: flex;
+  gap: 15px;         /* space between tall and right box */
+  }
+
+/* viefel Tall div */
+.tall-img{
+  flex: 1;           /* takes one portion of the space */
+  min-height: 400px;
+  background: url("viefels\ tall.jpg") no-repeat center/cover;
+  border-radius: 10px;
+  } 
+
+
+/* FEG Tall div */
+.f-tall-img{
+  flex: 1;           /* takes one portion of the space */
+  min-height: 400px;
+  background: url("feg\ label.jpg") no-repeat center/cover;
+  border-radius: 10px;
+}
+
+/* Seaflows Tall div */
+.s-tall-img{
+  flex: 1;           /* takes one portion of the space */
+  min-height: 400px;
+  background: url("seaflowsmock.png") no-repeat center/cover;
+  border-radius: 10px;
+}
+
+
+/* Right box for 2x2 images */
+.right-box {
+  flex: 1;           /* same width as tall div */
+  display: flex;
+  flex-wrap: wrap;   /* allow wrapping into two rows */
+  gap: 15px;
+}
+
+.small-img {
+  flex: 1 1 calc(50% - 15px); /* each takes half width of right-box */
+  min-height: 190px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+/* vievel images placeholders */
+.r1c1-img{ background-image: url("vr1c1.jpg"); }
+.r1c2-img{ background-image: url("vr1c2.jpg"); }
+.r2c1-img{ background-image: url("vr2c1.jpg"); }
+.r2c2-img{ background-image: url("vr2c2.jpg"); }
+
+/* FEG images placeholders */
+
+.f1c1-img { background-image: url("FEG.jpg"); }
+.f1c2-img { background-image: url("bottle.jpg"); }
+.f2c1-img{ background-image: url("FEG2.jpg"); }
+.f2c2-img { background-image: url("FEG\ pattern.jpg"); }
+
+
+/* Seaflows images placeholders */
+
+.s1c1-img { background-image: url("seaflows\ logo.jpg"); }
+.s1c2-img { background-image: url("seaflow\ helmet.jpg"); }
+.s2c1-img{ background-image: url("seaflows\ eng.jpg"); }
+.s2c2-img { background-image: url("seaflow.jpg"); }
+
+
+#icons-cont{margin-bottom: 80px;}
+
+
+/* Tablet view (≤ 992px): make all boxes equal, 2 per row */
+@media (max-width: 992px) {
+  .flex-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 15px;
+  }
+
+  /* Make ALL boxes (including tall ones) equal */
+  .tall-img,
+  .f-tall-img,
+  .s-tall-img,
+  .right-box .small-img {
+    flex: 1 1 calc(50% - 15px); /* 2 per row */
+    min-height: 250px;          /* same height for all */
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+  }
+
+  /* Unwrap .right-box so its items align with .tall-img */
+  .right-box {
+    display: contents; /* flatten children into the parent flex layout */
+  }
+   #main{font-size: 2em;}
+  #anchor{font-size: 1.5em;}
+}
+
+
+/* Phone view (≤ 576px): 1 per row */
+@media (max-width: 576px) {
+  #b-jumbotron{
+  height: 300px;         /* full screen hero section */}
+
+  #main{font-size: 0.5em;}
+  #anchor{font-size: 1em;
+}
+
+  .flex-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .tall-img,
+  .f-tall-img,
+  .s-tall-img,
+  .right-box .small-img {
+    flex: 1 1 100%;
+    min-height: 200px;
+  }
+
+  /* ✅ Add this to fix hidden small images */
+  .right-box {
+    display: contents; /* flatten children so they behave like siblings */
+    overflow: visible; /* ensure they’re not clipped */
+  }
+  #main{font-size: 1.5em;}
+  .anchor-link{font-size: 0.3em;}
+  .bn{margin-top: auto;
+  text-align: center;}
+}
+
+
+
+
+
+
+
