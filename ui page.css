@@ -1,0 +1,335 @@
+*{margin:0;
+padding: 0;}
+body{background-color: #eef6ff;;
+    background-size: cover;
+    background-image: none;
+  }
+  #anchor-link{padding: 20px;}
+ 
+#hero-cont{background-image: url("blur\ ui.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+display: flex;
+  justify-content: center;
+  align-items: center;
+flex-direction: column;
+ position: relative;
+  z-index: 1;
+  margin-top: 0;
+  height: 100vh;         /* full screen hero section */
+  
+  }
+
+  
+  #vw, #p-link{background-color: #00ABE3;
+  color: white;
+  text-align: center;
+  font-size: 1em;
+}
+
+  .navbar {
+  background-color:rgb(1, 1, 33) !important; /* make background clear */
+  box-shadow: none !important;              /* remove shadow */
+  backdrop-filter: none !important;         /* ensure no blur layer */
+}
+  a{text-decoration: none;}
+
+  .vw{
+  background-color: #00ABE3;
+  color: white;
+  margin: auto;
+   margin-bottom: 30px;
+ display: flex;
+ align-content: center;
+  border: none;
+  border-radius: 8px;
+ font-size: 20px;
+ 
+  
+}
+
+  
+
+
+#h-text{
+  font-family: Arial, sans-serif; color: #ffffff;
+  margin-top: 50px;
+  font-size: 3em;
+}
+
+
+#anchor{text-decoration: none;
+margin-top: 20px;
+color: #ffffff;}
+
+#ui-design{
+  color:#ffffff;       /* Bootstrap primary */
+  font-weight: inherit;     /* bold */
+  border-bottom: 2px solid #ffffff; /* underline effect */
+}
+
+
+#h-btn{box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.3);
+  outline: none;
+  border: none;
+  height: 40px;
+ font-size: 24px;
+  text-align: center;      /* center the text horizontally */
+  line-height: normal;
+  background-color: #00ABE3;
+  color: white;
+  border-radius: 5px;
+  margin-top:30px;
+}
+
+#home{
+  color:#00ABE3;       /* Bootstrap primary */
+  font-weight: 600;     /* bold */
+  border-bottom:none; /* underline effect */
+}
+
+h1{color: #700884;
+  
+  font-size: 3em;
+  text-align: center;
+  font-family: Arial, sans-serif; 
+  
+  
+}
+
+#col-8 h3 {
+ color:#00ABE3
+}
+
+
+.section-div{background-color: #ffffff;
+border-radius: 10px;
+margin-top: 30px;
+box-shadow: 2px;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1)}
+
+#ui-1{
+    background: url(glttz\ mockup.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    border:5px;
+    height: 100vh
+    
+
+  }
+
+  #ui-2{
+    background: url(xploreEdge.jpg) no-repeat;
+    background-position: center;
+    background-size: contain;
+    border:5px;
+    height: 100vh;
+    background-color: #00ABE3;
+
+  }
+
+#fp{color:#000000;
+  font-size: 24px;
+margin-top:inherit;
+text-align: center;
+font-weight: 500;}
+
+#short-about-brand{margin-top: 40px;
+                margin-bottom: 40px;
+              font-size: 1.0em;
+            color: #000000;}
+
+
+.proj-section{background: #ffffff;       /* make sure there's a background */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);  /* subtle shadow */
+  border-radius: 10px;       /* optional: soft corners */
+  padding-top: 10px;
+  margin-bottom: 40px;       /* space between sections */
+  margin-top:10px
+}
+
+h3{margin-top: 50px;}
+
+.about{font-weight:200;
+color: #504e50;
+padding-top: 20px;
+padding-bottom: 30px;
+}
+
+#icons-cont{margin-bottom: 80px;}
+
+
+   
+
+
+
+.short-about-brand{font-size: 1.3em;
+}
+
+
+
+
+/* tablets */
+
+@media (min-width: 601px) and (max-width: 900px) {
+  
+  #sm-div{
+    background: url(glttz\ mockup.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 5px;
+    height: 350px;
+  }
+
+  #sm-div2{
+    background: url(xploreEdge.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 5px;
+    height: 350px;
+    border: none;
+  }
+
+  #hero-cont{height: 500px;}
+
+
+#h-text{margin-top: 15px;
+  font-size: 1.5em;}
+  .anchor-link{font-size: 0.3em;}
+
+  #h-btn{
+ font-size: 14px;
+  height: 30px;
+}
+ 
+
+  .cta-btn{box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.3);
+  outline: none;
+  border: none;
+  height: 30px;
+ font-size: 14px;
+  text-align: center;      /* center the text horizontally */
+  line-height: normal
+
+  }
+
+
+.short-about-brand{margin-top: 20px;
+                margin-bottom: 20px;
+              font-size: 1.0em;
+            color: #0e1112;}
+
+}
+
+
+
+
+  
+  
+
+
+
+/* Extra small devices (phones, portrait) */
+@media (max-width: 575.98px) {
+#b-jumbotron{
+  height: 300px;         /* full screen hero section */
+  
+
+  }
+#fp{font-size: 1.5em;
+margin-top:20px;
+text-align: center;}
+
+
+  #h-text{ color:#ffffff;
+    font-size: 20px;
+}
+
+.short-about-brand{margin-top: 30px;
+                margin-bottom: 30px;
+              font-size: 0.9em;
+            text-align: justify;
+          
+          }
+
+          #vp-btn{
+  background-color: #00ABE3;
+  color: white;
+  width: 80%;
+  height: 40px;
+}
+
+#anchor-link{padding: 5px;}
+
+        #short-about-brand br {
+  display: none; /* only hides <br> inside this element */
+}
+
+
+ .b-name{text-align: center;
+margin: auto;}
+           #sm-div{
+    background: url(glttz\ mockup.png) no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 250px;
+  height: 250px;
+  border-radius:10px; /* makes it a circle */
+  margin: auto;
+
+  }
+
+  #sm-div2{
+    
+    background: url(xploreEdge.jpg) no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 250px;
+  height: 250px;
+  border-radius: 10px; /* makes it a circle */
+  margin: 0 auto;
+  padding: 20px;
+  }
+  
+  #h-btn{
+ font-size: 14px;
+  height: 30px;
+}
+ 
+
+ 
+   .icons{
+  height: 24px;}
+.l-icon{height: 28px;}
+
+#foot-items{
+  margin: 20px auto 30px auto;
+}
+  
+
+#hero-cont{height: 300px;}
+
+  .anchor-link{font-size: 0.3em;}
+
+  .vw{
+  background-color: #00ABE3;
+  color: white;
+  margin: auto;
+   margin-bottom: 30px;
+ width:50%;
+ display: flex;
+ align-content: center;
+  border: none;
+  border-radius: 8px;
+ font-size: 18px;
+ 
+  
+}
+
+}
+
+
+
+
+
+

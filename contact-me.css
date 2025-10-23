@@ -1,0 +1,187 @@
+*{margin:0;
+padding: 0;}
+body{background-color: #eef6ff;;
+    background-size: cover;
+    background-image: none;
+  }
+
+#hero-cont{background-image: url("sm\ tel.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+display: flex;
+  justify-content: center;
+  align-items: start;
+flex-direction: column;
+ position: relative;
+  z-index: 1;
+  margin-top: 0;
+  height:100vh;         /* full screen hero section */
+}
+
+ #contMe{
+  color: white;
+  border-bottom: solid white;
+ }
+
+
+ #hero-text{margin-top: 0px;
+        font-size: 3em;
+      color:#00ABE3;}
+
+
+#sub-h-text{
+            font-size: 2em;
+            color: #ffffff;
+}
+
+   
+ 
+
+.navbar {
+  background-color: black !important; /* make background clear */
+  box-shadow: none !important;              /* remove shadow */
+  backdrop-filter: none !important;         /* ensure no blur layer */
+}
+
+
+
+
+
+#home{
+  color:#00ABE3;       /* Bootstrap primary */
+  font-weight: 600;     /* bold */
+  border-bottom:none; /* underline effect */
+}
+
+#icons-cont{margin-bottom: 80px;}
+
+
+
+#vmw{background-color: #00ABE3;
+  color: white;
+padding: 10px 20px;
+  font-size: 16px;
+  line-height: 1.4;}
+
+
+
+#contact {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(6px);
+  border-radius: 15px;
+  padding: 3rem;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+#contact h3 {
+  font-weight: 600;
+  color: #222;
+}
+
+#contact button {
+  background-color: #0d6efd;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+#contact button:hover {
+  background-color: #084298;
+}
+
+
+
+
+
+
+
+  
+
+
+
+
+/* tablets */
+
+@media (min-width: 601px) and (max-width: 900px) {
+  
+  #sm-div{
+    background: url(glttz\ mockup.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 5px;
+    height: 350px;
+  }
+
+  #sm-div2{
+    background: url(xploreEdge.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 5px;
+    height: 350px;
+    border: none;
+  }
+
+  
+
+
+#hero-cont{
+  height:300px;         /* full screen hero section */
+}
+
+
+
+ #hero-text{margin-top: 10px;
+        font-size: 2em;
+      color:#00ABE3;}
+
+
+#sub-h-text{
+            font-size: 1.5em;
+            color: #ffffff;
+}
+}
+
+
+
+
+  
+  
+
+
+
+/* Extra small devices (phones, portrait) */
+@media (max-width: 575.98px) {
+#b-jumbotron{
+  height: 300px;         /* full screen hero section */
+  
+
+  }
+#fp{font-size: 1.5em;
+margin-top:20px;
+text-align: center;}
+
+
+#hero-cont{text-align: center;
+  height:300px;         /* full screen hero section */
+}
+
+
+
+ #hero-text{margin-top: 10px;
+        font-size: 2em;
+      color:#00ABE3;}
+
+
+#sub-h-text{
+            font-size: 1.5em;
+            color: #ffffff;
+}
+  }
+
+  
+
+
+
+
+
+
+
