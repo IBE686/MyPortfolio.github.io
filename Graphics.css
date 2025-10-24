@@ -370,19 +370,14 @@ margin: 10px;}
 
   #vmw{width: 50%;
   }
-  #h-btn{width: 45%;
+  #h-btn{width: 50%;
+         font-size:12px
   }
-/*eddited on git*/
-  #vp-btn{
-  background-color: #00ABE3;
-  color: white;
-  width: 80%;
-  height: 40px;
-      font-size:12px
-}
+
 
 
 }
+
 
 
 
