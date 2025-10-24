@@ -372,10 +372,18 @@ margin: 10px;}
   }
   #h-btn{width: 45%;
   }
+/*eddited on git*/
+  #vp-btn{
+  background-color: #00ABE3;
+  color: white;
+  width: 80%;
+  height: 40px;
+      font-size:12px
+}
 
-  
 
 }
+
 
 
 
